@@ -292,7 +292,7 @@ namespace CrudApı.Controllers
         }
 
 
-        //Aşağırdaki Çalışıyor.
+        
         [HttpPost]
         public Response UseLogin(LoginTable login)
         {
@@ -352,7 +352,7 @@ namespace CrudApı.Controllers
 
         }
 
-        // alt taraf kullanıcı bilgilerini getirmej için çalışmıyor
+        //
 
         [HttpGet]
         public UsersTable userget(int EmpID)
@@ -409,4 +409,3 @@ namespace CrudApı.Controllers
     }
 
 }
-

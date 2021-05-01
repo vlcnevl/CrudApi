@@ -79,7 +79,7 @@ namespace CrudApı.Controllers
         [HttpGet]
         public string deneme()
         {
-            string a = "çalışıyooooo";
+            string a = "deneme";
             return a;
 
 

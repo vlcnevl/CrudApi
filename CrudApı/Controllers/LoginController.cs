@@ -11,7 +11,7 @@ using System.Web.Http;
 namespace CrudApı.Controllers
 {
     public class LoginController : ApiController
-    { // sanırım kullanılmuyor.
+    { //
         SqlConnection conn;
         private void SqlConn()
         {
@@ -20,12 +20,12 @@ namespace CrudApı.Controllers
         }
 
        
-        //Aşağırdaki Çalışıyor.
+        //
         [HttpGet]
         public UsersTable UseLogin(LoginTable login)
         {
             // String pass = "a2135";
-            //String email ="veli@gmail.com";
+            //String email ="x@gmail.com";
             SqlConn();
             conn.Open();
              Response response = new Response();
